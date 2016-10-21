@@ -798,7 +798,7 @@ Remember, when using the "core" build, you will need to build your own UI and up
         // For an Azure endpoint instance:
         // Some options to pass to the uploader are discussed on the next page
         var azureUploader = new qq.azure.FineUploader({
-            element: getElementById("azure-uploader")
+            element: document.getElementById("azure-uploader")
         })
     </script>
 </body>
